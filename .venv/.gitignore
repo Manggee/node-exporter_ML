@@ -1,2 +1,10 @@
 # created by virtualenv automatically
 *db_config.json
+src/data/*.csv
+src/data/*_preprocessed_*.csv
+models/*
+*.joblib
+*.pkl
+*.parquet
+*.feather
+predict_log.txt
