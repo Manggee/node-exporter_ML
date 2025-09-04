@@ -1,5 +1,3 @@
-좋아 망지 🙆‍♂️ 그대로 복붙해서 쓸 수 있는 마크다운 README.md 버전 만들어줄게!
-
 # 📊 Node Metrics Forecasting
 
 서버에서 수집한 **Node Exporter 리소스 메트릭(CPU, 메모리 등)** 데이터를 기반으로  
