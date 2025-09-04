@@ -1,0 +1,84 @@
+{
+  "trial": {
+    "feat_cfg": {
+      "lags": [
+        1,
+        2,
+        3,
+        4,
+        5
+      ],
+      "rolling_window": [
+        3,
+        6
+      ],
+      "use_all_stats": true,
+      "horizon": 1,
+      "use_holidays": true,
+      "use_fourier": true
+    },
+    "model_cfg": {
+      "n_estimators": 514,
+      "max_depth": 9,
+      "learning_rate": 0.013784753415585197,
+      "subsample": 0.8255261969480938,
+      "colsample_bytree": 0.7375584929159558,
+      "reg_alpha": 0.11627425041032521,
+      "reg_lambda": 43.82159083359466,
+      "min_child_weight": 0.25824629909550667
+    },
+    "mae": 0.1697976438904693
+  },
+  "final_valid_mae": 0.1697976438904693,
+  "feature_names": [
+    "mean",
+    "max",
+    "min",
+    "std",
+    "mean_lag_1",
+    "mean_lag_2",
+    "mean_lag_3",
+    "mean_lag_4",
+    "mean_lag_5",
+    "mean_rolling_mean_3",
+    "mean_rolling_mean_6",
+    "max_lag_1",
+    "max_lag_2",
+    "max_lag_3",
+    "max_lag_4",
+    "max_lag_5",
+    "max_rolling_mean_3",
+    "max_rolling_mean_6",
+    "min_lag_1",
+    "min_lag_2",
+    "min_lag_3",
+    "min_lag_4",
+    "min_lag_5",
+    "min_rolling_mean_3",
+    "min_rolling_mean_6",
+    "std_lag_1",
+    "std_lag_2",
+    "std_lag_3",
+    "std_lag_4",
+    "std_lag_5",
+    "std_rolling_mean_3",
+    "std_rolling_mean_6",
+    "hour",
+    "weekday",
+    "month",
+    "is_weekend",
+    "is_holiday",
+    "fft_real_1",
+    "fft_imag_1",
+    "fft_real_2",
+    "fft_imag_2",
+    "fft_real_3",
+    "fft_imag_3"
+  ],
+  "valid_ratio": 0.2,
+  "csv_path": "/Users/manggee/Code/ntels_Project/src/data/node_metrics.csv",
+  "training_data_shape": [
+    5929,
+    43
+  ]
+}
